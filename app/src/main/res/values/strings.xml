@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MarkerImpl</string>
+    <string name="text_marker_variety">マーカーの種類</string>
+    <string name="text_handle_events">Info Windowとイベント</string>
+    <string name="text_clustering">クラスタリング</string>
+    <string name="text_more_clustering">更にクラスタリング</string>
+    <string name="text_custom_icon">カスタムアイコン</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="message_focus">ここを中心にする</string>
+    <string name="message_focus_2">離した場所を中心にする</string>
+</resources>
