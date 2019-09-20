@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
             R.id.buttonClustering -> ClusteringActivity::class.java
             R.id.buttonMoreClustering -> MoreClusteringActivity::class.java
             R.id.buttonCustomIcon -> CustomIconActivity::class.java
+            R.id.buttonBatchMarker -> BatchMarkerActivity::class.java
             else -> null
         }?.let {
             startActivity(Intent(this@MainActivity, it))

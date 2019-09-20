@@ -16,8 +16,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CustomIconActivity"></activity>
-        <activity android:name=".MoreClusteringActivity" />
+        <activity
+            android:name=".BatchMarkerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomIconActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoreClusteringActivity"
+            android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -32,11 +39,15 @@
 
         <activity
             android:name=".ClusteringActivity"
-            android:label="@string/text_clustering" />
+            android:label="@string/title_clustering_marker"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MarkerEventActivity"
-            android:label="@string/text_handle_events" />
-        <activity android:name=".MainActivity">
+            android:label="@string/title_info_window"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,7 +56,6 @@
         </activity>
         <activity
             android:name=".MarkerVarietyActivity"
-            android:label="@string/title_activity_maps"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
