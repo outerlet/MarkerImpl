@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BatchMarkerActivity"
+            android:name=".MarkerBatchActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".CustomIconActivity"
